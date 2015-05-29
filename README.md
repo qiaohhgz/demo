@@ -1,12 +1,13 @@
 # 快速部署一个静态页面到GitHub
 
+### [Home](http://qiaohhgz.github.io/demo/index.html)
 
 ```git
-> git init
-> git add index.html
-> git commit -m 'first commit'
-> git remote add origin [URL]
-> git push origin ph-pages
+git init
+git add index.html
+git commit -m 'first commit'
+git remote add origin [URL]
+git push -u origin ph-pages
 ```
 
 打开网页 http://[github账号名].github.io/[项目名字]/index.html
